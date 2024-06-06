@@ -4,7 +4,7 @@ from pyrogram import filters
 from Sifra.utils.admin_check import admin_filter
 from Sifra.utils.Databases.notesdb import *
 from Sifra.utils.function.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from Sifra.utils.Databases.Anyadb import user_admin
+from Sifra.utils.Databases.adisadb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
