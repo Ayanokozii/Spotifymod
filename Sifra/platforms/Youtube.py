@@ -3,7 +3,7 @@ import os
 import re
 from typing import Union
 
-import yt-dlp==2024.5.27
+import yt-dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
