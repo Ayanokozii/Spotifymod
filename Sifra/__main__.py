@@ -50,7 +50,7 @@ async def init():
         pass
     await Ayano.decorators()
     LOGGER("Sifra").info(
-        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ɢɪʙ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ ᴄʜᴜᴛ ɪɴ @LOV"
+        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ᴀᴀʙ ᴄʜᴀɴɴᴇʟ Jᴏɪɴ ᴋʀ ʟᴇ @PAHADI_VERSE"
     )
     await idle()
     await app.stop()
