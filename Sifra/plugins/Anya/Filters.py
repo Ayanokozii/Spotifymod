@@ -4,7 +4,7 @@ from config import BOT_USERNAME
 from Sifra.utils.admin_check import admin_filter
 from Sifra.utils.Databases.filtersdb import *
 from Sifra.utils.function.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from Sifra.utils.Databases.Anyadb import user_admin
+from Sifra.utils.Databases.adisadb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
