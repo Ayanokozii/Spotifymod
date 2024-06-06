@@ -1,7 +1,7 @@
 import requests
 import random
-from Subhi import app, userbot
-from Subhi.misc import SUDOERS
+from Sifra import app, userbot
+from Sifra.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
 from Sifra.utils.Sifra_ban import admin_filter
