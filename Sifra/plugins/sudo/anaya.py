@@ -138,4 +138,4 @@ async def restriction_app(app :app, message):
                     can_manage_video_chats=False,
                        )
                      )
-                await message.reply("demoted !")`
+                await message.reply("demoted !")
