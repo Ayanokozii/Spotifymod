@@ -1,5 +1,6 @@
+
 from pyrogram import filters
-from Sifra.utils.admin_check import admin_check
+from Subhi.utils.admin_check import admin_check
 
 
 USE_AS_BOT = True
