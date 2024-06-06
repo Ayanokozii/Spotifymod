@@ -4,7 +4,7 @@ from Subhi import app, userbot
 from Subhi.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from Sifra.utils.Subhi_ban import admin_filter
+from Sifra.utils.Sifra_ban import admin_filter
 
 
 
