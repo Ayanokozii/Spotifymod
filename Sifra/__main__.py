@@ -40,22 +40,22 @@ async def init():
     await userbot.start()
     await Ayano.start()
     try:
-        await Ayano.stream_call("https://te.legra.ph/file/39b302c93da5c457a87e3.mp4")
+        await Ayano.stream_call("https://telegra.ph/file/f59799c8d94c4691939a4.mp4")
     except NoActiveGroupCall:
         LOGGER("Sifra").error(
-            "ʙsᴅᴋ ᴠᴄ ᴛᴏ ᴏɴ ᴋᴀʀʟᴇ  ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ ᴋɪ.\n\n ᴏɴ ᴋᴀʀᴋᴇ ᴀᴀ ᴛᴀʙ ᴛᴀᴋ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ ʜᴏᴏɴ..."
+            "ᴠᴄ ᴛᴏ ᴏɴ ᴋʀ ʟᴇ ᴘᴇʜʟᴇ ғɪʀ ᴅᴇᴘʟᴏʏ ᴋʀ..."
         )
         exit()
     except:
         pass
     await Ayano.decorators()
     LOGGER("Sifra").info(
-        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ɢɪʙ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ ᴄʜᴜᴛ ɪɴ @LOVE_FEELINGS_WILL1"
+        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ɢɪʙ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ ᴄʜᴜᴛ ɪɴ @LOV"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Sifra").info("ᴍᴀᴀ ᴄʜᴜᴅᴀ ᴍᴀɪɴ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ AᴀʀᴏʜɪX Mᴜsɪᴄ Bᴏᴛ...")
+    LOGGER("Sifra").info("ᴍᴀᴀ ᴄʜᴜᴅᴀ ᴍᴀɪɴ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ Sifra Mᴜsɪᴄ Bᴏᴛ...")
 
 
 if __name__ == "__main__":
