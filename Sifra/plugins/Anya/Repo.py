@@ -6,88 +6,59 @@ from config import BOT_USERNAME
 from Sifra.utils.errors import capture_err
 
 start_txt = """**
-➤ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍʏ ᴡᴏʀʟᴅ ᥫᩣ
+⊚ 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐌𝐘 𝐖𝐎𝐑𝐋𝐃 ⊚
  
- ⦿ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ɴ ᴠᴘs ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ !
+➻ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ʙʏ ᴜꜱɪɴɢ ᴛʜᴇꜱᴇ ʀᴇᴘᴏꜱ ✰
  
- ⦿ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ !
+ ➻ ɴᴏ ᴇʀʀᴏʀ ✰
  
- ⦿ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ !
+ ➻ ɴᴏ ʜᴇʀᴏᴋᴜ ᴀᴄᴄᴏᴜɴᴛ ʙᴀɴ ɪꜱꜱᴜᴇ ✰
  
- ⦿ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴅᴍ ᴍᴇ !
+➻ ɴᴏ ɪᴅ ʙᴀɴ ɪꜱꜱᴜᴇ✰
+ 
+ ➻ ᴀʟʟ ʀᴇᴘᴏꜱ ᴡᴏʀᴋꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ʟᴀɢ ᴀꜰᴛᴇʀ ᴅᴇᴘʟᴏʏ ✰
+ 
+ ► ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴅᴍ ᴀᴛ ꜱᴜᴘᴘᴏʀᴛ
 **"""
 
-@bot.on_message(filters.command(["repo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))
+
+
+
+@app.on_message(filters.command("repo"))
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ʜᴇʟᴘ", url="https://t.me/AAROHI_SUPPORT_CHAT"),
-          InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/Ayano_sagar_121"),
-        ],
-        [
-          InlineKeyboardButton("ᴠ1 ᴍᴜsɪᴄ", url=f"https://github.com/stkeditz/SifraMUSIC"),
-          InlineKeyboardButton("︎ᴠ2 ᴍᴜsɪᴄ", url=f"https://github.com/stkeditz/SifraMUSICv2"),
-        ],
-        [
-          InlineKeyboardButton("ᴍᴀñᴀɢᴇᴍᴇɴᴛ", url=f"https://github.com/BadshahAk/AnsiRobot"),
-          InlineKeyboardButton("ᴄʜᴀᴛ ʙᴏᴛ", url=f"https://github.com/stkeditz/SifraCHATBOT"),
-        ],
-        [
-          InlineKeyboardButton("sᴛʀɪɴɢ ʙᴏᴛ", url=f"https://github.com/stkeditz/SifraSTRINGBOT"),
-          InlineKeyboardButton("ᴅᴘᴢ sᴛᴏʀᴇ", url=f"https://t.me/Ayano_dpz_stocks"),
-        ],
-        [
-          InlineKeyboardButton("ᴄᴄ ᴄʜᴀᴛ", url="https://t.me/heruko_cc"),
-          InlineKeyboardButton("ᴀʟᴏɴᴇ ɢʀᴏᴜᴘ", url=f"https://t.me/LOVE_FEELINGS_WILL1"),
-        ],
-        [
-          InlineKeyboardButton("ʟᴀᴛᴇ ɴɪɢʜᴛ︎", url=f"https://t.me/Late_Night_Chatters"),
-          InlineKeyboardButton("ᴅᴜɴɪʏᴀ", url=f"https://t.me/Ayano_ki_duniya"),
-        ],
-        [
-          InlineKeyboardButton("ᴅɪʟ ғᴇᴇʟɪɴɢs", url=f"https://t.me/Ayano_Feelings_Will"),
-          InlineKeyboardButton("ʟᴏᴠᴇ ғᴇᴇʟɪɴɢs", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
-        ],
-        [
-          InlineKeyboardButton("ᴅɪʟ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/alonegroup121"),
+          InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/TEAM_X_T"),
+          InlineKeyboardButton("𝙾𝚆𝙽𝙴𝚁", url="https://t.me/RAX_XT"),
+          ],
+               [
+                InlineKeyboardButton("𝚆𝙰𝙽𝚃 𝙲𝙲", url=f"https://t.me/TEAM_X_T"),
+
+],
+[
+              InlineKeyboardButton("𝙶𝙲 𝙳𝙴𝚂𝚃𝚁𝙾𝚈𝙴𝚁", url=f"https://github.com/subhichiku/BANALL"),
+              InlineKeyboardButton("︎𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃", url=f"https://github.com/subhichiku/SUBHI"),
+              ],
+              [
+              InlineKeyboardButton("𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃", url=f"https://github.com/subhichiku/CHIKU-ASSISTANT"),
+InlineKeyboardButton("𝙲𝙷𝙰𝚃 𝙱𝙾𝚃", url=f"https://github.com/subhichiku/CHIKU-CHAT"),
+],
+[
+InlineKeyboardButton("𝚂𝚃𝚁𝙸𝙽𝙶 𝙱𝙾𝚃", url=f"https://github.com/subhichiku/SUBHISTRING")
+],
+[
+InlineKeyboardButton("𝚄𝚂𝙴𝚁 𝙱𝙾𝚃", url=f"https://github.com/subhichiku/USERBOT")
+],
+
         ]
-    ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/d3e94fa78cb489c1effbd.jpg",
+        photo="https://telegra.ph/file/19832f573094d09e46762.jpg",
         caption=start_txt,
-        reply_markup=reply_markup,
+        reply_markup=reply_markup
     )
-
-
-
-#-------------------------------------------------------#
-
-
-@bot.on_message(filters.command("repo", prefixes="@"))
-@capture_err
-async def repo(_, message):
-    async with httpx.AsyncClient() as client:
-        response = await client.get("https://api.github.com/repos/stkeditz/SifraMUSICv2/contributors")
-    
-    if response.status_code == 200:
-        users = response.json()
-        list_of_users = ""
-        count = 1
-        for user in users:
-            list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
-            count += 1
-
-        text = f"""[ʀᴇᴘᴏ](https://github.com/stkeditz/SifraMUSICv2) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/alonegroup121)
-| ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs |
-----------------
-{list_of_users}"""
-        await bot.send_message(message.chat.id, text=text, disable_web_page_preview=True)
-    else:
-        await bot.send_message(message.chat.id, text="Failed to fetch contributors.")
-
