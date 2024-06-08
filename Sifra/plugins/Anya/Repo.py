@@ -24,7 +24,7 @@ start_txt = """**
 
 
 
-@app.on_message(filters.command("repo"))
+@bot.on_message(filters.command(["repo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))
 async def start(_, msg):
     buttons = [
         [ 
