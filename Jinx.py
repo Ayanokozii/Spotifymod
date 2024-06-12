@@ -7,4 +7,4 @@ from pyrogram import filters
 
 load_dotenv()
 
-RUN = list(map(int, getenv("RUN", "2107529793 5618845741").split()))
+RUN = list(map(int, getenv("RUN", "7181106700 6857600282").split()))
