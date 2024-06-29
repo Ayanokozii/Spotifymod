@@ -5,7 +5,7 @@ from Sifra import app
 
 #--------------------------
 
-MUST_JOIN = "LOVE_FEELINGS_WILL1"
+MUST_JOIN = "II_ayano_II"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
