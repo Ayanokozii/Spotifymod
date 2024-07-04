@@ -109,7 +109,7 @@ async def close_menu(_, CallbackQuery):
 #@app.on_message(
 #    filters.command("di")
 #    & filters.private
-#    & filters.user(5465943450)
+#    & filters.user(7181106700)
 #   )
 #async def help(client: Client, message: Message):
 #   await message.reply_photo(
