@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ayanokozii/Sifra2",
+    "https://github.com/ayanokozii/Spotifymod",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Anya")
 GIT_TOKEN = getenv(
